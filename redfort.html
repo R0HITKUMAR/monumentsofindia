@@ -1,0 +1,132 @@
+<! –– HTML CODING FOR RED FORT (redfort.html) ––>
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background:transparent url('background-img/B.jpg') repeat center top;
+    }
+  </style>
+	<title>Red Fort | Monuments of India</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  <link rel="icon" href="background-img/C.png" sizes="40x40">
+</head>
+<body>
+<! –– HEADER ––>
+	<div class="header">
+		<p class="header" id="head">
+		<div class="header-name" id="head-name">Red Fort
+		<div class="header-button">
+    		<a class="active" href="index.html">Home</a>
+    		<a class="active" href="https://rebrand.ly/rk/website">Contact</a>
+    		<a class="active" href="about.html">About</a>
+    	</div>
+    	</div>
+    	</p>
+    </div>
+<! –– MENU BAR ––>
+	<div>
+		<ul class="links">
+  			<li><a href="index.html">Home</a></li>
+  			<li><a href="http://delhitourism.gov.in/delhitourism/tourist_place/red_fort.jsp" target="_blank">Official Site</a></li>
+        <li><a href="https://www.gettyimages.in/photos/redfort?mediatype=photography&phrase=redfort&sort=mostpopular" target="_blank">Gallery</a></li>
+ 	 	    <li><a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank">Wikipedia</a></li>
+  			<li><a href="https://en.wikipedia.org/api/rest_v1/page/pdf/Red_Fort" target="_blank">Detail Download</a></li>
+  			<li><a href="https://goo.gl/maps/R7iV7duKC4TyTJ2D6" target="_blank">360 Tour</a></li>
+        <li><a href="https://www.irctc.co.in/nget/train-search" target="_blank" title="Visit Website of IRCTC eTicketing System" >IRCTC</a></li>
+        <li><a href="https://www.oyorooms.com/" target="_blank" title="Visit Website of OYO Rooms" >OYO Rooms</a></li>
+        <li><a href="https://www.yatra.com/" target="_blank" title="Visit Website of Yatra" >Yatra</a></li>
+		</ul>
+	</div>
+<! –– TOP BUTTON ––>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+	<script>
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		mybutton.style.display = "block";
+  			} 
+  		else {
+    		mybutton.style.display = "none";
+  			}
+		}
+		function topFunction() {
+  			document.body.scrollTop = 0;
+ 		 	document.documentElement.scrollTop = 0;
+			}
+	</script>
+<! –– IMAGE SLIDESHOW ––>
+	<div class="slideshow-container">
+    	<div class="mySlides fade">
+      		<div class="numbertext">1 / 3</div>
+     		<img src="2.redfort/image1.jpg" style="width:100%">
+    		</div>
+
+    		<div class="mySlides fade">
+      		<div class="numbertext">2 / 3</div>
+      		<img src="2.redfort/image2.jpg" style="width:100%">
+    		</div>
+    
+    		<div class="mySlides fade">
+      		<div class="numbertext">3 / 3</div>
+      		<img src="2.redfort/image3.jpg" style="width:100%">
+    	</div>
+	</div><br>
+	<div style="text-align:center">
+ 		<span class="dot"></span> 
+  		<span class="dot"></span> 
+  		<span class="dot"></span> 
+	</div>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		function showSlides() {
+  		var i;
+  		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
+  		for (i = 0; i < slides.length; i++) {
+    		slides[i].style.display = "none";  
+  			}
+  		slideIndex++;
+  		if (slideIndex > slides.length) {slideIndex = 1}    
+  		for (i = 0; i < dots.length; i++) {
+    		dots[i].className = dots[i].className.replace(" active", "");
+  			}
+  		slides[slideIndex-1].style.display = "block";  
+  		dots[slideIndex-1].className += " active";
+  		setTimeout(showSlides, 10000); // Change image every 1 seconds
+		}
+	</script>
+<! –– BODY ––>
+	<div id="body-text"><div class="body-title">Red Fort</div><br>The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salimgarh, built by Islam Shah Suri in 1546, with which it forms the Red Fort Complex. The private apartments consist of a row of pavilions connected by a continuous water channel, known as the Nahr-i-Behisht (Stream of Paradise). The Red Fort is considered to represent the zenith of Mughal creativity which, under the Shah Jahan, was brought to a new level of refinement. The planning of the palace is based on Islamic prototypes, but each pavilion reveals architectural elements typical of Mughal building, reflecting a fusion of Persian, Timurid and Hindu traditions The Red Fort’s innovative planning and architectural style, including the garden design, strongly influenced later buildings and gardens in Rajasthan, Delhi, Agra and further afield.<br>In 1638, the Mughal Emperor Shah Jahan moved the capital of his empire from Agra to a newly constructed city in Delhi that he called Shahjahanabad. Along with the construction of this new city, he laid the foundations of his palace, the Red Fort or Lal Qila. This massive walled citadel with red sandstone walls took nearly a decade to complete. It is considered to be better planned than the Agra Fort, as Shah Jahan learned from his experience pf living there. This fort was the seat of the Mughal empire for around 200 years, until it fell into British hands. The last Mughal Emperor Bahadur Shah Zafar was coronated here in 1837, during which time it is said that his powers did not extend beyond the boundaries of his palace.
+	</div><hr width="100%">
+<! –– YOU TUBE & MAPS ––>
+	<ul class="reference container-fluid">
+		<li><div class="youtube col-xs-1 col-sm-1 col-md-3 col-lg-3"><iframe src="https://www.youtube.com/embed/UA4VR4wc7cU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></li>
+		<li><div class="maps col-xs-1 col-sm-1 col-md-3 col-lg-3"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14004.383054257947!2d77.24382052385081!3d28.656851160351138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfce26ec085ef%3A0x441e32f4fa5002fb!2sRed%20Fort!5e0!3m2!1sen!2sin!4v1591958618650!5m2!1sen!2sin" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div></li>
+    <li><div class="maps col-xs-1 col-sm-1 col-md-3 col-lg-3"><iframe src="https://www.google.com/maps/embed?pb=!4v1603620938772!6m8!1m7!1sCAoSLEFGMVFpcE9PTU4ycWs5OFFGbWx3ZVRsTEVuMG5XRklvNWJfNzFCMVhUaE5J!2m2!1d28.6561076!2d77.23825769999999!3f25.75!4f25.319999999999993!5f0.7820865974627469" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div></li>
+	</ul><hr width="100%">
+<! –– FOOTER ––>
+	<footer class="panel-footer ">
+    	<div class="container">
+      		<div class="row footer-text">
+<! –– COPYRIGHT ––>
+          <div class="text-center">&copy; Copyright Rohit Kumar|Red Fort|2020<br>
+            <marquee behavior="scroll" direction="left">This Site is Developed and Hosted by Rohit Kumar&nbsp;&nbsp;&nbsp;&nbsp;Thanks for Visiting&nbsp;&nbsp;&nbsp;&nbsp;Visit Again</marquee>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
+<! –– END OF CODE ––>
+<! –– ROHIT KUMAR ––>
